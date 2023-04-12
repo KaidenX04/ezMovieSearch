@@ -117,4 +117,5 @@ a {
 header a {
     user-select: none;
     cursor: pointer;
+    color: white;
 }
