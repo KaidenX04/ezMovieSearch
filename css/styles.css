@@ -113,3 +113,8 @@ a {
     margin-bottom: 1rem;
     padding: .5rem;
 }
+
+header a {
+    user-select: none;
+    cursor: pointer;
+}
