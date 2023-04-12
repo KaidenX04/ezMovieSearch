@@ -107,3 +107,8 @@ a {
 .movie-info > * {
     width: 50%;
 }
+
+.plot {
+    max-width: 80ch;
+    margin-bottom: 1rem;
+}

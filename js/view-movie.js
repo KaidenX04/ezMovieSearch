@@ -20,6 +20,8 @@ window.addEventListener("load", async () => {
 
     document.querySelector(".runtime").innerText = `Runtime: ${movie.Runtime}`
 
+    document.querySelector(".plot").innerText = movie.Plot
+
     let ratingObject = null
     movie.Ratings.forEach(rating => {
         if (rating.Source == "Rotten Tomatoes") {
