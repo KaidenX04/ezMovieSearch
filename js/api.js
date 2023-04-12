@@ -1,11 +1,11 @@
 const fetchMovie = async (title) => {
-    let response = await fetch(`https://www.omdbapi.com/?apikey=87d778e2&s=${title}/`)
+    let response = await fetch(`https://www.omdbapi.com/?apikey=87d778e2&s=${title}`)
     let data = await response.json()
     return data
 }
 
 const fetchMovieByID = async (id) => {
-    let response = await fetch(`https://www.omdbapi.com/?apikey=87d778e2&i=${id}/`)
+    let response = await fetch(`https://www.omdbapi.com/?apikey=87d778e2&i=${id}`)
     let data = await response.json()
     return data
 }
