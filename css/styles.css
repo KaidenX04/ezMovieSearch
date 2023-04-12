@@ -111,4 +111,5 @@ a {
 .plot {
     max-width: 80ch;
     margin-bottom: 1rem;
+    padding: .5rem;
 }
